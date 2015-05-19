@@ -31,6 +31,8 @@
     //devを更新
 }//devを更新
 
+//devからfeatureへMerge後に、featureを更新
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -52,6 +54,7 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = self.objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
+        //revert後featureBranchを更新
     }
 }
 
