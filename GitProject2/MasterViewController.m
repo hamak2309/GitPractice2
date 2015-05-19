@@ -54,6 +54,7 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = self.objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
+        //revert後featureBranchを更新
     }
 }
 
