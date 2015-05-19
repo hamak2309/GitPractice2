@@ -27,8 +27,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
-    //feture branchを更新
-}//feture branchを更新
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
