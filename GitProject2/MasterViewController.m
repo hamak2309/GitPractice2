@@ -26,7 +26,7 @@
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     //gitClone2から追記
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];//devをコミット
     self.navigationItem.rightBarButtonItem = addButton;
     //devを更新
 }//devを更新
